@@ -89,8 +89,8 @@ body{
 
 
 .gallery{
-    width: 35rem; /* La taille pour l'élément racine. */
-    height: 22rem;
+    width: 50rem; /* La taille pour l'élément racine. */
+    height: 25rem;
     position: relative;
     display: flex;
     overflow: auto;  /* La propriété CSS overflow est une propriété raccourcie qui définit comment gérer le dépassement du contenu d'un élément dans son bloc. Elle définit les valeurs des propriétés overflow-x et overflow-y. */
@@ -125,4 +125,12 @@ body{
         box-shadow: 5px 5px 5px yellow;
         background-color:rgb(218, 3, 3);
     }  /*  */
+}
+.bonefire{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.majula-theme{
+    margin-left: 250px;
 }
