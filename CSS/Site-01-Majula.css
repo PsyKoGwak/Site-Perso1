@@ -99,7 +99,7 @@ body{
     animation-name: thomas ; /* nom de l'animation du KeyFrame */
     animation-duration: 2s; /* durée de l'animation */
     animation-iteration-count: infinite;
-    margin-left: 600px;
+    margin-left: 300px;
 }
 
 .gallery img{
@@ -132,7 +132,7 @@ body{
     right: 0;
 }
 .majula-theme{
-    margin-left: 250px;
+    margin-left: 150px;
 }
 .majula-lore1{
     text-align: center;
