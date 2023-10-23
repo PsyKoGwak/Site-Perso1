@@ -1,6 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/optimus-princeps'); 
+
 .bonefire{
     position: absolute;
     top: 0;
     right: 0;
 }
-@import url('https://fonts.cdnfonts.com/css/optimus-princeps');
+.newsletter{
+    background-image: url(../IMG/formes-geometriques-degradees-fond-sombre.jpg);
+    padding: 15px;
+    margin: 100px;
+    box-shadow: 1px 1px 10px; color: black 5px 5px 20px;
+    font-family: 'OptimusPrinceps', sans-serif;
+}
+h1{
+    color: red;
+}
+
