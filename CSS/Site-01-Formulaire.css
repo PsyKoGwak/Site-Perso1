@@ -10,9 +10,10 @@
     padding: 15px;
     margin: 100px;
     box-shadow: 1px 1px 10px; color: black 5px 5px 20px;
-    font-family: 'OptimusPrinceps', sans-serif;
 }
 h1{
     color: red;
 }
-
+*{
+    font-family: 'OptimusPrinceps', sans-serif;
+}
