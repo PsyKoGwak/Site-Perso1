@@ -63,9 +63,8 @@ nav > ul li:hover .sous-menu{
     margin-top: 150px;
 }
 body{
-    background-image: url(../IMG/fume-knight.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(77,74,74);
+    background: linear-gradient(90deg, rgba(77,74,74,1) 0%, rgba(0,0,0,1) 100%);
 }
 .Chevalier{
     margin-left: 100px;
@@ -110,3 +109,21 @@ p{
             top: 0;
             right: 0;
         }
+        @media screen and(max-width: 600px) {
+            .menu{
+                display: flex;
+            }
+            body{
+                background: rgb(77,74,74);
+                background: linear-gradient(90deg, rgba(77,74,74,1) 0%, rgba(0,0,0,1) 100%);
+            }
+            .Chevalier{
+                display: block;
+                flex-direction: column;
+            }
+            .fumerole1 img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    
