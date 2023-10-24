@@ -94,4 +94,17 @@ nav > ul li:hover .sous-menu{
     .menu{
         display: flex;
     }
+    .fond-ecran1{
+    display: none;
+    }
+    body{
+        background-image: url(../IMG/dark-souls-II-wallpaper2-test.png);
+    }
+    .logo-ds2{
+        display: none;
+    }
+    .bonefire img{
+        width: 150px;
+        height: 200px;
+    }
 }
