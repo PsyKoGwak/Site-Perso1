@@ -106,6 +106,7 @@ nav > ul li:hover .sous-menu{
         body{
             display: block;
             flex-direction: column;
+            position: absolute !important;
         }
         .div1{
             display: flex;
