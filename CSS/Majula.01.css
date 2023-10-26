@@ -94,17 +94,17 @@ header{
     }
     @keyframes fondu{
         0%{
-            background-image: url("");
+            background-image: url("../IMG/majula1.jpg");
             
         }
         33.33%{
-            background-image: url("");
+            background-image: url("../IMG/majula2.jpg");
         }
         66.67%{
-            background-image: url("");
+            background-image: url("../IMG/majula3.jpg");
         }
         100%{
-            background-image: url("");
+            background-image: url("../IMG/majula4.jpg");
         }
     }
 
