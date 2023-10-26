@@ -72,6 +72,7 @@ body{
 p{
     font-family: 'OptimusPrinceps', sans-serif;
     color: rgb(255, 248, 240);
+    height: 200px;
 }
 .tips { 
         display: grid;
@@ -109,7 +110,7 @@ p{
             align-items: center;
         }
 
-        @media screen and(max-width:600px) {
+        @media screen and (max-width:500px) {
             .menu{
                 display: flex;
             }
@@ -118,14 +119,38 @@ p{
             }
             .bonefire{
                 position: absolute;
-                top: 0;
+                top: -50px;
                 right: 0;
+               
             }
-            .tips .tips2{
-                display: block;
-                overflow: scroll;
-                contain: size 150px;
+            .text3{
+                overflow: auto !important;
+                height: 200px !important;
+               
             }
+
+            .fumerole1{
+               display: none;
+            }
+
+            .chevalier, .fume-text{
+               display: block;
+                overflow: auto;
+               
+                
+            }
+
+            .boss-fight, iframe{
+                width: 300px;
+                height: 300px;
+               margin-left: 10px;
+
+            }
+
+         .eva-test div3, .UR{
+            overflow: auto;
+         }
+    
             
         }
     
