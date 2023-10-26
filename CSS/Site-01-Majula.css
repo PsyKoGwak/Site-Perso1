@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/optimus-princeps');
+
+
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+nav ul ::after{
+    content: none;
+    display: table;
+    clear: both;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 117, 117);
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-family: 'OptimusPrinceps', sans-serif;
+
+}
+nav a:hover{
+    color: rgb(70, 112, 236);
+}
+.sous-menu{
+    display: none;
+    box-shadow: 0px 1px 2px rgb(216, 0, 43);
+    background-color: rgba(179, 3, 3, 0.903);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous-menu{
+    display: block;
+}
+.sous-menu li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous-menu a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous-menu a:hover{
+    border-bottom: none;
+    background-color: rgb(232, 14, 68);
+}
+.deroulant > a::after{
+    content:"▼";
+    font-size: 12px;
+}
+.menu{
+    margin-top: 100px;
+}
+.section-back{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    color: #fffdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parallax{
+    background-image: url(../IMG/majula5.jpg);
+}
+
+body{
+    background-color: rgb(29, 28, 28);
+}
+
+
+.gallery{
+    width: 50rem; /* La taille pour l'élément racine. */
+    height: 25rem;
+    position: relative;
+    display: flex;
+    overflow: auto;  /* La propriété CSS overflow est une propriété raccourcie qui définit comment gérer le dépassement du contenu d'un élément dans son bloc. Elle définit les valeurs des propriétés overflow-x et overflow-y. */
+    scroll-snap-type: x mandatory; /* Le viewport visuel du conteneur doit s'arrêter sur les points d'accroche s'il n'est pas en cours de défilement. Cela signifie qu'il accroche sur ce point quand le défilement s'arrête.  */
+    box-shadow: 5px 5px 5px rgb(164, 3, 189);
+    animation-name: thomas ; /* nom de l'animation du KeyFrame */
+    animation-duration: 2s; /* durée de l'animation */
+    animation-iteration-count: infinite;
+    margin-left: 300px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;  /* La propriété CSS object-fit définit la façon dont le contenu d'un élément remplacé (<img> ou <video> par exemple) doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur.
+    Selon la valeur utilisée pour object-fit, l'élément peut être rogné, mis à l'échelle ou étiré, afin de remplir la boîte qui le contient. */
+
+    scroll-snap-align: start; /* La propriété scroll-snap-align définit la position de la boîte d'accroche (snap positions) comme un alignement entre la zone d'accroche et le conteneur (la boîte de défilement de l'élément). 
+    Le point d'alignement situé au début de l'axe et sur le bord de la boîte de défilement est une position d'accroche sur cet axe. */
+}
+
+@keyframes thomas {
+    0%{
+        box-shadow: red 5px 5px 5px;
+        background-color:black ;
+    }  /* Ceci est la première étape de l'animation, qui est définie à 0% de progression. À cet instant, l'élément a un certain style. */
+
+    50%{
+        box-shadow: 5px 5px 5px yellow;
+        background-color:rgb(218, 3, 3);
+    }  /*  */
+}
+.bonefire{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.majula-theme{
+    margin-left: 150px;
+}
+.majula-lore1{
+    text-align: center;
+    margin-top: 150px;
+}
