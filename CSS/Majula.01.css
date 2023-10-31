@@ -73,6 +73,15 @@ header{
     .menu{
         margin-top: 100px;
     }
+    .majula-lore2{
+        color: red;
+        font-family: 'OptimusPrinceps', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    }
 
 
     .d1{
